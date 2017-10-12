@@ -6,7 +6,7 @@ phases:
       - echo Entering build phase...
       - echo Build started on `date`
       - mvn package shade:shade
-      - mv target/hello-1.0.jar .
+      - mv target/ollytest_artid-1.0-SNAPSHOT.jar .
 artifacts:
   files:
-    - hello-1.0.jar
+    - ollytest_artid-1.0-SNAPSHOT.jar
